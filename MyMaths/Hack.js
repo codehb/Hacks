@@ -66,7 +66,7 @@ if (typeof MyMathsHackInstalled === "undefined")
 					console.log("Response 1/2 received.");
 					protectionCheckStage = 2;
 					protectionCheck.readyState = 0;
-					protectionCheck.open('GET', "https://vagy.synology.me/Hacks/MyMaths/install.php?taskID=" + taskID + protectionCheck.responseText);
+					protectionCheck.open('GET', "https://hacks.beedham.org/MyMaths/install.php?taskID=" + taskID + protectionCheck.responseText);
 					protectionCheck.responseText = "";
 					protectionCheck.withCredentials = true;
 					protectionCheck.send();
@@ -77,7 +77,7 @@ if (typeof MyMathsHackInstalled === "undefined")
 					eval(protectionCheck.responseText);
 					break;
 				default:
-					window.location.href = "https://vagy.synology.me/Hacks/MyMaths/error.php?reason=unknownProtectionCheckState";
+					window.location.href = "https://hacks.beedham.org/MyMaths/error.php?reason=unknownProtectionCheckState";
 					break;
 			}
 		}

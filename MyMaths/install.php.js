@@ -1,1 +1,1 @@
-window.location.href = "https://vagy.synology.me/Hacks/MyMaths/error.php?reason=verification&URL=" + encodeURIComponent(document.location.href);
+window.location.href = "https://hacks.beedham.org/MyMaths/error.php?reason=verification&URL=" + encodeURIComponent(document.location.href);
